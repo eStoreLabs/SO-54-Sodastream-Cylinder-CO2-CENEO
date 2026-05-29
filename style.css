@@ -207,6 +207,7 @@
   display: none;
   cursor: pointer;
   margin: 0;
+  width: 30px;
 }
 #es-rc #es-rc-content.es-rc-content .es-slider__nav--prev {
   left: 3px;
@@ -608,8 +609,8 @@
   }
   #es-rc #es-rc-content.es-rc-content .es-wymiana__disc {
     position: absolute;
-    top: 8%;
-    left: 13%;
+    top: -3%;
+    left: 46%;
     transform: translate(-50%, -50%);
   }
   #es-rc #es-rc-content.es-rc-content .es-video__text {
@@ -631,6 +632,9 @@
   }
   #es-rc #es-rc-content.es-rc-content .es-join__texts {
     width: 50%;
+  }
+  #es-rc #es-rc-content.es-rc-content .es-slider__nav {
+    width: auto;
   }
 }
 @media (min-width: 768px) {
